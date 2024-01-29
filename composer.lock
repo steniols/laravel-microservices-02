@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9c491b8531eec05ba41a11d9276a5749",
+    "content-hash": "a45d13e1a57162656ce4b1ff008a4d0d",
     "packages": [
         {
             "name": "brick/math",
@@ -3183,6 +3183,43 @@
                 }
             ],
             "time": "2023-11-08T05:53:05+00:00"
+        },
+        {
+            "name": "steniols/microservices-common",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/steniols/microservices-common.git",
+                "reference": "13d7a5e8000ecd4311590b24631637b19ea9cdc0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/steniols/microservices-common/zipball/13d7a5e8000ecd4311590b24631637b19ea9cdc0",
+                "reference": "13d7a5e8000ecd4311590b24631637b19ea9cdc0",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Steniols\\MicroservicesCommon\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stenio L. de Souza",
+                    "email": "steniols@gmail.com"
+                }
+            ],
+            "description": "Package Files Utils Microservices",
+            "support": {
+                "issues": "https://github.com/steniols/microservices-common/issues",
+                "source": "https://github.com/steniols/microservices-common/tree/1.0.0"
+            },
+            "time": "2023-11-30T18:39:54+00:00"
         },
         {
             "name": "symfony/console",

@@ -18,6 +18,8 @@ services:
             - queue
         networks: 
             - microservices02
+        extra_hosts:
+            - "host.docker.internal:host-gateway"
     
     # nginx
     nginx:
